@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="B%7)SSOU1b1#S||S,$N_" x="225" y="20"><statement name="HANDLER"><block type="controls_repeat_ext" id="v2n4Wjk$VXXjz[qGRpA-"><value name="TIMES"><shadow type="math_whole_number" id="c2Ngvju*.wPL-bMg56#]"><field name="NUM">100</field></shadow></value><statement name="DO"><block type="controls_repeat_ext" id="MYQmBY(D?pL%%ccws/JH"><value name="TIMES"><shadow type="math_whole_number" id="(/R?}nq@pt3ic]HW5!KL"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="7(0XrqOT~[9{1^tj])|("><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="B%7)SSOU1b1#S||S,$N_" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="7(0XrqOT~[9{1^tj])|("><field name="LEDS">`
         . # . # . 
         # # # # # 
         # # # # # 
         . # # # . 
         . . # . .
-        `</field></block></statement><next><block type="controls_repeat_ext" id="gjg{viiX1qSeKP{4vje;"><value name="TIMES"><shadow type="math_whole_number" id="{Mx.7dn!b^!n$=faYqq8"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="mISa6H?Rmh3ne6+OUBia"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="mISa6H?Rmh3ne6+OUBia"><field name="LEDS">`
         . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
         . . . . .
-        `</field></block></statement></block></next></block></statement></block></statement></block></xml>
+        `</field></block></next></block></statement></block></xml>
